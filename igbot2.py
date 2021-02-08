@@ -1,4 +1,4 @@
-import schedule
+# import schedule
 from instapy import InstaPy
 import dotenv
 import os
@@ -18,5 +18,3 @@ session.login()
 session.like_by_tags(ht, amount=2, skip_top_posts=False)
 # session.set_do_story(enabled = True, percentage = 70, simulate = False)
 # session.story_by_users(users)
-
-# git config –global core.editor "C:\Program Files (x86)\Notepad++\notepad++.exe"
