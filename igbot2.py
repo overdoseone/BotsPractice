@@ -1,4 +1,4 @@
-import scheduler
+import schedule
 from instapy import InstaPy
 import dotenv
 import os
@@ -7,12 +7,12 @@ import os
 dotenv.load_dotenv('.env')
 
 # grab credentials for us
-un = os.environ.get('CONSUMER_KEY')
-pwd = os.environ.get('CONSUMER_SECRET')
+un = os.environ.get('IG_USERNAME')
+pwd = os.environ.get('IG_PWD')
 
 
-ht = ['mercuryretrograde']
-users = ['nish_rdh', 'pradadagod']
+ht = ['aquariusnewmoon']
+users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze']
 session = InstaPy(username=un, password=pwd)
 session.login()
 session.like_by_tags(ht, amount=2, skip_top_posts=False)
