@@ -12,7 +12,7 @@ pwd = os.environ.get('IG_PWD')
 
 
 ht = ['aquariusnewmoon']
-users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze']  #followers
+users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze', '2beesinthetrap']  #followers
 comments = []
 
 # session login
