@@ -2,9 +2,18 @@
 from instapy import InstaPy
 import dotenv
 import os
+import logging
 
 # load credentials
 dotenv.load_dotenv('.env')
+
+#create logs
+logging.basicConfig(filename="run.log",
+                    format='%(asctime)s %(message)s',
+                    filemode='w',level=logging.INFO)
+#start logs
+logging.info('Started')
+
 
 # grab credentials for us
 un = os.environ.get('IG_USERNAME')
@@ -12,7 +21,7 @@ pwd = os.environ.get('IG_PWD')
 
 
 ht = ['aquariusnewmoon']
-users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze', '2beesinthetrap']  #followers
+users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze', '2beesinthetrap', 'smileawhilewhitening', 'tpoe229']  #followers
 comments = []
 
 # session login
@@ -36,6 +45,8 @@ session.story_by_users(users)
 # session.set_do_like(True, percentage=70)
 # session.interact_by_users(users, amount=5, randomize=True, media='Photo')
 
+# sealed logs
+logging.info('Finished')
 
 # session logout
 session.end()
