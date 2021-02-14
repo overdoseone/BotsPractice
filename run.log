@@ -1,39 +1,43 @@
-2021-02-12 23:04:30,390 Started
-2021-02-12 23:04:30,647 Download URL: https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-macos.tar.gz
-2021-02-12 23:04:30,912 Skipping download. File /Users/overdoseone/InstaPy/assets/gecko/v0.29.0/geckodriver-v0.29.0-macos.tar.gz already on filesystem.
-2021-02-12 23:04:31,242 Symlink already exists: /Users/overdoseone/InstaPy/assets/geckodriver -> /Users/overdoseone/InstaPy/assets/gecko/v0.29.0/geckodriver-v0.29.0-macos/geckodriver
-2021-02-12 23:04:36,412 Session started!
-2021-02-12 23:04:36,471 -- Connection Checklist [1/2] (Internet Connection Status)
-2021-02-12 23:04:36,832 - Internet Connection Status: ok
-2021-02-12 23:04:36,832 - Current IP is "73.237.57.58" and it's from "United States/US"
-2021-02-12 23:04:36,891 -- Connection Checklist [2/2] (Hide Selenium Extension)
-2021-02-12 23:04:36,901 - window.navigator.webdriver response: None
-2021-02-12 23:04:36,902 - Hide Selenium Extension: ok
-2021-02-12 23:04:39,864 - Cookie file for user 'overdoseone' loaded...
-2021-02-12 23:04:59,483 Logged in successfully!
-2021-02-12 23:04:59,485 Saving account progress...
-2021-02-12 23:05:15,778 User [1/5]
-2021-02-12 23:05:15,780 Loading stories with User --> b'nish_rdh'
-2021-02-12 23:05:24,571 Watching stories...
-2021-02-12 23:05:24,575 No stories to watch (either there is none) or we have already watched everything
-2021-02-12 23:05:24,576 User [2/5]
-2021-02-12 23:05:24,576 Loading stories with User --> b'pradadagod'
-2021-02-12 23:05:35,871 Watching stories...
-2021-02-12 23:05:35,881 No stories to watch (either there is none) or we have already watched everything
-2021-02-12 23:05:35,881 User [3/5]
-2021-02-12 23:05:35,882 Loading stories with User --> b'babyboyhaaaze'
-2021-02-12 23:05:44,416 No stories to watch (either there is none) or we have already watched everything
-2021-02-12 23:05:44,418 User [4/5]
-2021-02-12 23:05:44,419 Loading stories with User --> b'2beesinthetrap'
-2021-02-12 23:05:50,590 No stories to watch (either there is none) or we have already watched everything
-2021-02-12 23:05:50,591 User [5/5]
-2021-02-12 23:05:50,591 Loading stories with User --> b'smileawhilewhitening'
-2021-02-12 23:05:58,180 Watching stories...
-2021-02-12 23:05:58,184 No stories to watch (either there is none) or we have already watched everything
-2021-02-12 23:05:58,184 Finished
-2021-02-12 23:05:59,046 Sessional Live Report:
+root - 2021-02-13 19:00:52,737 - Admin logged in
+webdriverdownloader.webdriverdownloader - 2021-02-13 19:00:52,986 - Download URL: https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-macos.tar.gz
+webdriverdownloader.webdriverdownloader - 2021-02-13 19:00:53,255 - Skipping download. File /Users/overdoseone/InstaPy/assets/gecko/v0.29.0/geckodriver-v0.29.0-macos.tar.gz already on filesystem.
+webdriverdownloader.webdriverdownloader - 2021-02-13 19:00:53,580 - Symlink already exists: /Users/overdoseone/InstaPy/assets/geckodriver -> /Users/overdoseone/InstaPy/assets/gecko/v0.29.0/geckodriver-v0.29.0-macos/geckodriver
+overdoseone - 2021-02-13 19:00:58,427 - Session started!
+overdoseone - 2021-02-13 19:00:58,497 - -- Connection Checklist [1/2] (Internet Connection Status)
+overdoseone - 2021-02-13 19:00:58,839 - - Internet Connection Status: ok
+overdoseone - 2021-02-13 19:00:58,840 - - Current IP is "76.20.229.19" and it's from "United States/US"
+overdoseone - 2021-02-13 19:00:58,893 - -- Connection Checklist [2/2] (Hide Selenium Extension)
+overdoseone - 2021-02-13 19:00:58,902 - - window.navigator.webdriver response: None
+overdoseone - 2021-02-13 19:00:58,903 - - Hide Selenium Extension: ok
+overdoseone - 2021-02-13 19:01:02,291 - - Cookie file for user 'overdoseone' loaded...
+overdoseone - 2021-02-13 19:01:04,340 - - Issue with cookie for user 'overdoseone'. Creating new cookie...
+overdoseone - 2021-02-13 19:01:04,341 - - Deleting browser cookies...
+overdoseone - 2021-02-13 19:01:46,512 - Logged in successfully!
+overdoseone - 2021-02-13 19:01:46,513 - Saving account progress...
+overdoseone - 2021-02-13 19:01:58,175 - User [1/6]
+overdoseone - 2021-02-13 19:01:58,175 - Loading stories with User --> b'nish_rdh'
+overdoseone - 2021-02-13 19:02:04,963 - No stories to watch (either there is none) or we have already watched everything
+overdoseone - 2021-02-13 19:02:04,964 - User [2/6]
+overdoseone - 2021-02-13 19:02:04,965 - Loading stories with User --> b'pradadagod'
+overdoseone - 2021-02-13 19:02:13,046 - Watching stories...
+overdoseone - 2021-02-13 19:02:13,052 - No stories to watch (either there is none) or we have already watched everything
+overdoseone - 2021-02-13 19:02:13,053 - User [3/6]
+overdoseone - 2021-02-13 19:02:13,053 - Loading stories with User --> b'babyboyhaaaze'
+overdoseone - 2021-02-13 19:02:20,504 - No stories to watch (either there is none) or we have already watched everything
+overdoseone - 2021-02-13 19:02:20,505 - User [4/6]
+overdoseone - 2021-02-13 19:02:20,506 - Loading stories with User --> b'2beesinthetrap'
+overdoseone - 2021-02-13 19:02:29,803 - No stories to watch (either there is none) or we have already watched everything
+overdoseone - 2021-02-13 19:02:29,804 - User [5/6]
+overdoseone - 2021-02-13 19:02:29,804 - Loading stories with User --> b'smileawhilewhitening'
+overdoseone - 2021-02-13 19:02:36,222 - No stories to watch (either there is none) or we have already watched everything
+overdoseone - 2021-02-13 19:02:36,222 - User [6/6]
+overdoseone - 2021-02-13 19:02:36,223 - Loading stories with User --> b'tpoe228'
+overdoseone - 2021-02-13 19:02:47,378 - Watching stories...
+overdoseone - 2021-02-13 19:09:59,726 - No stories to watch (either there is none) or we have already watched everything
+root - 2021-02-13 19:09:59,727 - Admin log off
+overdoseone - 2021-02-13 19:10:00,191 - Sessional Live Report:
 	|> No any statistics to show
 
 On session start was FOLLOWING 810 users & had 254 FOLLOWERS
-[Session lasted 1.47 minutes]
-2021-02-12 23:05:59,046 Session ended!
+[Session lasted 9.12 minutes]
+overdoseone - 2021-02-13 19:10:00,191 - Session ended!

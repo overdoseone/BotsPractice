@@ -9,10 +9,10 @@ dotenv.load_dotenv('.env')
 
 #create logs
 logging.basicConfig(filename="run.log",
-                    format='%(asctime)s %(message)s',
+                    format='%(name)s - %(asctime)s - %(message)s',
                     filemode='w',level=logging.INFO)
 #start logs
-logging.info('Started')
+logging.info('Admin logged in')
 
 
 # grab credentials for us
@@ -21,7 +21,7 @@ pwd = os.environ.get('IG_PWD')
 
 
 ht = ['aquariusnewmoon']
-users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze', '2beesinthetrap', 'smileawhilewhitening', 'tpoe229']  #followers
+users = ['nish_rdh', 'pradadagod', 'babyboyhaaaze', '2beesinthetrap', 'smileawhilewhitening', 'tpoe228']  #followers
 comments = []
 
 # session login
@@ -46,7 +46,11 @@ session.story_by_users(users)
 # session.interact_by_users(users, amount=5, randomize=True, media='Photo')
 
 # sealed logs
-logging.info('Finished')
+logging.info('Admin log off')
+
 
 # session logout
 session.end()
+
+# shutdown logs
+logging.shutdown()
